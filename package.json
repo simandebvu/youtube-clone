@@ -1,0 +1,22 @@
+{
+  "name": "youtube-clone",
+  "version": "1.0.0",
+  "description": "An HTML/CSS clone of Youtube for Microverse.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aldemeery/youtube-clone.git"
+  },
+  "keywords": [
+    "Microverse",
+    "Youtube",
+    "Clone"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aldemeery/youtube-clone/issues"
+  },
+  "homepage": "https://github.com/aldemeery/youtube-clone#readme"
+}
