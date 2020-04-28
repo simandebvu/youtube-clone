@@ -4,6 +4,14 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Youtube Clone</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Nunito:200,600"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet"
+        />
         <link rel="stylesheet" href="style.css" />
     </head>
 
@@ -11,16 +19,27 @@
         <div class="container">
             <header class="header">
                 <div class="logo">
-                    <img src="https://placecorgi.com/180/50" alt="logo" />
+                    <a href="#">
+                        <img src="./images/logo.png" alt="logo" />
+                    </a>
                 </div>
                 <div class="search-bar">
                     <form action="">
                         <input type="text" name="q" placeholder="Search" />
+                        <button class="submit">
+                            <i class="material-icons">search</i>
+                        </button>
                     </form>
                 </div>
                 <div class="buttons">
-                    <button>Upload</button>
-                    <button>Sign in</button>
+                    <div class="upload">
+                        <a href="#">
+                            <i class="material-icons">publish</i>
+                        </a>
+                    </div>
+                    <div class="signin">
+                        <a href="#">Sign in</a>
+                    </div>
                 </div>
             </header>
 
@@ -109,6 +128,34 @@
 
                 <div class="suggestions">
                     <ul>
+                        <li class="suggestion">
+                            <!--  Thumbnail, Title, Channel Views,  -->
+                            <div class="thumbnail">
+                                <img
+                                    src="https://placecorgi.com/50/90"
+                                    alt="channel-img"
+                                />
+                            </div>
+                            <div class="details">
+                                <h6>Cool Title</h6>
+                                <span>Channel name</span>
+                                <span>4520 Views</span>
+                            </div>
+                        </li>
+                        <li class="suggestion">
+                            <!--  Thumbnail, Title, Channel Views,  -->
+                            <div class="thumbnail">
+                                <img
+                                    src="https://placecorgi.com/50/90"
+                                    alt="channel-img"
+                                />
+                            </div>
+                            <div class="details">
+                                <h6>Cool Title</h6>
+                                <span>Channel name</span>
+                                <span>4520 Views</span>
+                            </div>
+                        </li>
                         <li class="suggestion">
                             <!--  Thumbnail, Title, Channel Views,  -->
                             <div class="thumbnail">
