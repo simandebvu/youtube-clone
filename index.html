@@ -1,122 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Youtube Clone</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Youtube Clone</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <body>
+        <div class="container">
+            <header class="header">
+                <div class="logo">
+                    <img src="https://placecorgi.com/180/50" alt="logo" />
+                </div>
+                <div class="search-bar">
+                    <form action="">
+                        <input type="text" name="q" placeholder="Search" />
+                    </form>
+                </div>
+                <div class="buttons">
+                    <button>Upload</button>
+                    <button>Sign in</button>
+                </div>
+            </header>
 
-<body>
-    <div class="container">
-        <header>
-            <div class="logo">
-
-            </div>
-            <div class="search-bar"></div>
-            <div class="buttons"></div>
-        </header>
-        <div class="page">
-            <div class="content">
-                <div class="video">
-                    <div class="player"></div>
-                    <div class="info">
-                        <h1>Watch this cool trick.</h1>
-                        <div class="channel-summary">
-                            <img src="https://placecorgi.com/50/50" alt="channel-img">
-                            <div class="channel-info">
-                                <h2>The Cool Channel</h2>
-                                <div class="subscribe">
-                                    <button>Subscribe</button>
-                                    <span>2.5M</span>
+            <div class="page">
+                <div class="content">
+                    <div class="video">
+                        <div class="player"></div>
+                        <div class="info">
+                            <h1>Watch this cool trick.</h1>
+                            <div class="channel-summary">
+                                <img
+                                    src="https://placecorgi.com/50/50"
+                                    alt="channel-img"
+                                />
+                                <div class="channel-info">
+                                    <h2>The Cool Channel</h2>
+                                    <div class="subscribe">
+                                        <button>Subscribe</button>
+                                        <span>2.5M</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="description">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum repudiandae nihil iure, nisi animi voluptatum saepe accusantium aliquid voluptate nemo dolor fuga suscipit earum doloribus maxime quos pariatur laboriosam eveniet!
+                            <div class="description">
+                                Lorem ipsum, dolor sit amet consectetur
+                                adipisicing elit. Nostrum repudiandae nihil
+                                iure, nisi animi voluptatum saepe accusantium
+                                aliquid voluptate nemo dolor fuga suscipit earum
+                                doloribus maxime quos pariatur laboriosam
+                                eveniet!
+                            </div>
                         </div>
                     </div>
+                    <div class="comments">
+                        <ul>
+                            <li class="comment">
+                                <div class="user-img">
+                                    <img
+                                        src="https://placecorgi.com/50/50/"
+                                        alt="user-img"
+                                    />
+                                    <div class="user-comment">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Maiores illo animi
+                                        neque unde, minima vitae magni saepe
+                                        veniam quo vel iusto numquam dolor
+                                        suscipit, quos ut! Nisi corporis
+                                        explicabo aut?
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="comment">
+                                <div class="user-img">
+                                    <img
+                                        src="https://placecorgi.com/50/50/"
+                                        alt="user-img"
+                                    />
+                                    <div class="user-comment">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Maiores illo animi
+                                        neque unde, minima vitae magni saepe
+                                        veniam quo vel iusto numquam dolor
+                                        suscipit, quos ut! Nisi corporis
+                                        explicabo aut?
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="comment">
+                                <div class="user-img">
+                                    <img
+                                        src="https://placecorgi.com/50/50/"
+                                        alt="user-img"
+                                    />
+                                    <div class="user-comment">
+                                        Lorem ipsum dolor sit, amet consectetur
+                                        adipisicing elit. Maiores illo animi
+                                        neque unde, minima vitae magni saepe
+                                        veniam quo vel iusto numquam dolor
+                                        suscipit, quos ut! Nisi corporis
+                                        explicabo aut?
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="comments">
+
+                <div class="suggestions">
                     <ul>
-                        <li class="comment">
-                            <div class="user-img">
-                                <img src="https://placecorgi.com/50/50/" alt="user-img">
-                                <div class="user-comment">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores illo animi neque unde, minima vitae magni saepe veniam quo vel iusto numquam dolor suscipit, quos ut! Nisi corporis explicabo aut?
-                                </div>
+                        <li class="suggestion">
+                            <!--  Thumbnail, Title, Channel Views,  -->
+                            <div class="thumbnail">
+                                <img
+                                    src="https://placecorgi.com/50/90"
+                                    alt="channel-img"
+                                />
                             </div>
-                        </li>
-                        <li class="comment">
-                            <div class="user-img">
-                                <img src="https://placecorgi.com/50/50/" alt="user-img">
-                                <div class="user-comment">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores illo animi neque unde, minima vitae magni saepe veniam quo vel iusto numquam dolor suscipit, quos ut! Nisi corporis explicabo aut?
-                                </div>
-                            </div>
-                        </li>
-                        <li class="comment">
-                            <div class="user-img">
-                                <img src="https://placecorgi.com/50/50/" alt="user-img">
-                                <div class="user-comment">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores illo animi neque unde, minima vitae magni saepe veniam quo vel iusto numquam dolor suscipit, quos ut! Nisi corporis explicabo aut?
-                                </div>
+                            <div class="details">
+                                <h6>Cool Title</h6>
+                                <span>Channel name</span>
+                                <span>4520 Views</span>
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="suggestions">
-                <ul>
-                    <li class="suggestion">
-                        <!--  Thumbnail, Title, Channel Views,  -->
-                        <div class="thumbnail">
-                            <img src="https://placecorgi.com/50/90" alt="channel-img">
-                        </div>
-                        <div class="details">
-                            <h6>Cool Title</h6>
-                            <span>Channel name</span>
-                            <span>4520 Views</span>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
 
-        <footer>
-            <div class="logo">
-
-            </div>
-            <form>
-                <!--
+            <footer class="footer">
+                <div class="logo"></div>
+                <form>
+                    <!--
                     lANGUAGE, LOCATION, RESTRICTED MODE
                 -->
-                <select class="language">
-                    <option value="EN">English</option>
-                    <option value="FR">French</option>
-                </select>
-                <select class="location">
-                    <option value="EG">Egypt</option>
-                    <option value="ZW">Zimbabwe</option>
-                </select>
-                <select class="mode">
-                    <option value="true">ON</option>
-                    <option value="false">OFF</option>
-                </select>
-            </form>
+                    <select class="language">
+                        <option value="EN">English</option>
+                        <option value="FR">French</option>
+                    </select>
+                    <select class="location">
+                        <option value="EG">Egypt</option>
+                        <option value="ZW">Zimbabwe</option>
+                    </select>
+                    <select class="mode">
+                        <option value="true">ON</option>
+                        <option value="false">OFF</option>
+                    </select>
+                </form>
 
-            <div class="links">
-                <a href="#">About</a>
-                <a href="#">Press</a>
-                <a href="#">Copyright</a>
-                <a href="#">Developers</a>
-                <a href="#">Advertise</a>
-                <a href="#">Creators</a>
-            </div>
-
-    </div>
-
-</body>
-
+                <div class="links">
+                    <a href="#">About</a>
+                    <a href="#">Press</a>
+                    <a href="#">Copyright</a>
+                    <a href="#">Developers</a>
+                    <a href="#">Advertise</a>
+                    <a href="#">Creators</a>
+                </div>
+            </footer>
+        </div>
+    </body>
 </html>
