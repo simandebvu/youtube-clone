@@ -1,10 +1,11 @@
 /* Simple CSS Reset */
+
 * {
     margin: 0;
     padding: 0;
-    font-size: 1em;
     font-family: inherit;
 }
+
 
 /*=================*/
 
@@ -13,54 +14,6 @@ body {
     font-family: "Nunito";
 }
 
-/* .container {
-    max-width: 1024px;
-    margin: auto;
-}
-
-.header {
-    background-color: #fff;
-    padding: 15px 15px;
-}
-
-.logo {
-    float: left;
-    width: 30%;
-}
-
-.logo img {
-    height: 35px;
-    vertical-align: middle;
-}
-
-.search-bar {
-    float: left;
-    width: 40%;
-}
-
-.search-bar form {
-    float: left;
-    width: 100%;
-}
-
-.search-bar input {
-    display: block;
-    float: left;
-}
-
-.search-bar input[type="text"] {
-    width: 70%;
-}
-
-.search-bar input[type="submit"] {
-    width: 20%;
-}
-
-.buttons {
-    float: right;
-} 
-
-*/
 
 /*=================*/
 
@@ -70,6 +23,7 @@ body {
     width: 1024px;
     margin: auto;
 }
+
 
 /*=================*/
 
@@ -128,6 +82,7 @@ body {
     grid-row: 1;
     line-height: 50%;
 }
+
 .header .upload i {
     font-size: 30px;
     color: #666;
@@ -151,11 +106,53 @@ body {
     text-decoration: none;
 }
 
+
+/*=================*/
+
+.player {
+    display: grid;
+}
+
+.video {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1 / span 8;
+}
+
+.video .channel-summary {
+    display: grid;
+    grid-row: 2;
+    grid-column: 1 / span 7;
+}
+
+.video .channel-summary {
+    display: grid;
+    grid-row: 2;
+    grid-column: 1 / span 8;
+}
+
+.info {
+    display: grid;
+}
+
+h2 {
+    grid-column: 1 / span 8;
+    grid-row: 1;
+}
+
+.video .channel-summary img {
+    display: grid;
+    grid-row: 1 / span 2;
+    grid-column: 1;
+}
+
+
 /*=================*/
 
 .page {
     display: grid;
     grid-column: 1 / span 12;
+    margin-top: 20px;
 }
 
 .content {
@@ -168,6 +165,18 @@ body {
     display: grid;
     grid-column: 9 / span 4;
     grid-row: 2;
+}
+
+.suggestion {
+    display: grid;
+}
+
+.suggestion .thumbnail {
+    grid-column: 1;
+}
+
+.suggestion .details {
+    grid-column: 2;
 }
 
 .footer {
