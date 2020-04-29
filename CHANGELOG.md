@@ -13,4 +13,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 -   CSS for the header.
 -   Style channel info.
 -   Style the suggestions section of the page.
--   Style the comments section
+-   Style the comments section.
+-   Style the footer.
