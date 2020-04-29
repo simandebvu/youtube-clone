@@ -11,3 +11,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   HTML Structure for the entire page.
 -   CSS for the header.
+-   Style channel info.

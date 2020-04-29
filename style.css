@@ -6,14 +6,12 @@
     font-family: inherit;
 }
 
-
 /*=================*/
 
 body {
     background-color: #f1f1f1;
     font-family: "Nunito";
 }
-
 
 /*=================*/
 
@@ -23,7 +21,6 @@ body {
     width: 1024px;
     margin: auto;
 }
-
 
 /*=================*/
 
@@ -78,7 +75,6 @@ body {
 }
 
 .header .upload {
-    /* grid-column: 11; */
     grid-row: 1;
     line-height: 50%;
 }
@@ -89,7 +85,6 @@ body {
 }
 
 .header .signin {
-    /* grid-column: 12; */
     grid-row: 1;
 }
 
@@ -105,7 +100,6 @@ body {
     float: right;
     text-decoration: none;
 }
-
 
 /*=================*/
 
@@ -136,12 +130,12 @@ body {
     border: none;
     color: #fff;
     padding: 7px 20px;
+    cursor: pointer;
 }
 
 .channel-info {
     display: grid;
     grid-column: 2;
-    /* grid-template-rows: auto 100px; */
 }
 
 .channel-info h4 {
@@ -153,37 +147,6 @@ body {
     border: 1px solid #777;
     width: 140px;
 }
-
-
-/* .channel-summary .video .channel-summary {
-    grid-row: 2;
-    grid-column: 1 / span 7;
-} */
-
-
-/* 
-.video .channel-summary {
-    display: grid;
-    grid-row: 2;
-    grid-column: 1 / span 8;
-} */
-
-
-/* .info {
-    display: grid;
-}
-
-h2 {
-    grid-column: 1 / span 8;
-    grid-row: 1;
-}
-
-.video .channel-summary img {
-    display: grid;
-    grid-row: 1 / span 2;
-    grid-column: 1;
-} */
-
 
 /*=================*/
 
