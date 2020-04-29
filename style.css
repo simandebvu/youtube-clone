@@ -6,12 +6,14 @@
     font-family: inherit;
 }
 
+
 /*=================*/
 
 body {
     background-color: #f1f1f1;
     font-family: "Nunito";
 }
+
 
 /*=================*/
 
@@ -21,6 +23,7 @@ body {
     width: 1024px;
     margin: auto;
 }
+
 
 /*=================*/
 
@@ -101,6 +104,7 @@ body {
     text-decoration: none;
 }
 
+
 /*=================*/
 
 .player {
@@ -148,6 +152,7 @@ body {
     width: 140px;
 }
 
+
 /*=================*/
 
 .page {
@@ -164,6 +169,26 @@ body {
 
 .info h2 {
     margin-bottom: 10px;
+}
+
+.info .video-options {
+    margin-top: 15px;
+}
+
+.video-options a {
+    color: #333;
+    margin-right: 20px;
+    line-height: 50%;
+    text-decoration: none;
+}
+
+.video-options i {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.likes {
+    float: right;
 }
 
 .description {

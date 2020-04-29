@@ -1,308 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Youtube Clone</title>
-        <link
-            href="https://fonts.googleapis.com/css?family=Nunito:200,600"
-            rel="stylesheet"
-        />
-        <link
-            href="https://fonts.googleapis.com/icon?family=Material+Icons"
-            rel="stylesheet"
-        />
-        <link rel="stylesheet" href="style.css" />
-    </head>
 
-    <body>
-        <div class="container">
-            <header class="header">
-                <div class="logo">
-                    <a href="#">
-                        <img src="./images/logo.png" alt="logo" />
-                    </a>
-                </div>
-                <div class="search-bar">
-                    <form>
-                        <input type="text" name="q" placeholder="Search" />
-                        <button class="submit">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/logo.png" alt="logo" />
+                </a>
+            </div>
+            <div class="search-bar">
+                <form>
+                    <input type="text" name="q" placeholder="Search" />
+                    <button class="submit">
                             <i class="material-icons">search</i>
                         </button>
-                    </form>
+                </form>
+            </div>
+            <div class="buttons">
+                <div class="upload">
+                    <a href="#">
+                        <i class="material-icons">publish</i>
+                    </a>
                 </div>
-                <div class="buttons">
-                    <div class="upload">
-                        <a href="#">
-                            <i class="material-icons">publish</i>
-                        </a>
-                    </div>
-                    <div class="signin">
-                        <a href="#">Sign in</a>
-                    </div>
+                <div class="signin">
+                    <a href="#">Sign in</a>
                 </div>
-            </header>
+            </div>
+        </header>
 
-            <div class="page">
-                <div class="content">
-                    <div class="video">
-                        <div class="player">
-                            <iframe
-                                src=" https://www.youtube.com/embed/jaghFTgreMM "
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture "
-                                allowfullscreen
-                            ></iframe>
-                        </div>
-                        <div class="info">
-                            <h2>Watch this cool trick.</h2>
-                            <div class="channel-summary">
-                                <img
-                                    src="https://loremflickr.com/55/55 "
-                                    alt="channel-img "
-                                />
-                                <div class="channel-info">
-                                    <h4>The Cool Channel</h4>
-                                    <div class="subscribe">
-                                        <button>Subscribe</button>
-                                        <span>2.5M</span>
-                                    </div>
+        <div class="page">
+            <div class="content">
+                <div class="video">
+                    <div class="player">
+                        <iframe src=" https://www.youtube.com/embed/jaghFTgreMM " allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
+                    </div>
+                    <div class="info">
+                        <h2>Watch this cool trick.</h2>
+                        <div class="channel-summary">
+                            <img src="https://loremflickr.com/55/55 " alt="channel-img " />
+                            <div class="channel-info">
+                                <h4>The Cool Channel</h4>
+                                <div class="subscribe">
+                                    <button>Subscribe</button>
+                                    <span>2.5M</span>
                                 </div>
                             </div>
-                            <div class="description">
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit. Nostrum repudiandae nihil
-                                iure, nisi animi voluptatum saepe accusantium
-                                aliquid voluptate nemo dolor fuga suscipit earum
-                                doloribus maxime quos pariatur laboriosam
-                                eveniet!
-                            </div>
+                        </div>
+                        <div class="video-options">
+                            <a href="#"><i class="material-icons">queue</i>Add to</a>
+                            <a href="#"><i class="material-icons">share</i>Share</a>
+                            <a href="#"><i class="material-icons">more_horiz</i>More</a>
+                            <span class="likes">
+                            <a href="#"><i class="material-icons">thumb_up</i> 88</a>
+                            <a href="#"><i class="material-icons">thumb_down</i> 3</a>
+                            </span>
+                        </div>
+                        <div class="description">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nostrum repudiandae nihil iure, nisi animi voluptatum saepe accusantium aliquid voluptate nemo dolor fuga suscipit earum doloribus maxime quos pariatur laboriosam eveniet!
                         </div>
                     </div>
-                    <div class="comments">
-                        <ul>
-                            <li class="comment">
-                                <div class="user-img">
-                                    <img
-                                        src="https://loremflickr.com/50/50/ "
-                                        alt="user-img "
-                                    />
-                                </div>
-                                <div class="user-comment">
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Maiores illo animi neque
-                                    unde, minima vitae magni saepe veniam quo
-                                    vel iusto numquam dolor suscipit, quos ut!
-                                    Nisi corporis explicabo aut?
-                                </div>
-                            </li>
-                            <li class="comment">
-                                <div class="user-img">
-                                    <img
-                                        src="https://loremflickr.com/50/50/ "
-                                        alt="user-img "
-                                    />
-                                </div>
-                                <div class="user-comment">
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Maiores illo animi neque
-                                    unde, minima vitae magni saepe veniam quo
-                                    vel iusto numquam dolor suscipit, quos ut!
-                                    Nisi corporis explicabo aut?
-                                </div>
-                            </li>
-                            <li class="comment">
-                                <div class="user-img">
-                                    <img
-                                        src="https://loremflickr.com/50/50/ "
-                                        alt="user-img "
-                                    />
-                                </div>
-                                <div class="user-comment">
-                                    Lorem ipsum dolor sit, amet consectetur
-                                    adipisicing elit. Maiores illo animi neque
-                                    unde, minima vitae magni saepe veniam quo
-                                    vel iusto numquam dolor suscipit, quos ut!
-                                    Nisi corporis explicabo aut?
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
                 </div>
-
-                <div class="suggestions">
+                <div class="comments">
                     <ul>
-                        <li class="suggestion">
-                            <a href="#">
-                                <div class="thumbnail">
-                                    <img
-                                        src="https://loremflickr.com/160/90 "
-                                        alt="channel-img "
-                                    />
-                                </div>
-                            </a>
-                            <div class="details">
-                                <a href="#">
-                                    <h4>
-                                        Cool!! Watch this dog!
-                                    </h4>
-                                </a>
-                                <a href="#">
-                                    <span class="channel-name">
-                                        Channel name
-                                    </span>
-                                </a>
-                                <span class="video-views">4520 Views</span>
+                        <li class="comment">
+                            <div class="user-img">
+                                <img src="https://loremflickr.com/50/50/ " alt="user-img " />
+                            </div>
+                            <div class="user-comment">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores illo animi neque unde, minima vitae magni saepe veniam quo vel iusto numquam dolor suscipit, quos ut! Nisi corporis explicabo aut?
                             </div>
                         </li>
-                        <li class="suggestion">
-                            <a href="#">
-                                <div class="thumbnail">
-                                    <img
-                                        src="https://loremflickr.com/160/90 "
-                                        alt="channel-img "
-                                    />
-                                </div>
-                            </a>
-                            <div class="details">
-                                <a href="#">
-                                    <h4>
-                                        Cool!! Watch this dog!
-                                    </h4>
-                                </a>
-                                <a href="#">
-                                    <span class="channel-name">
-                                        Channel name
-                                    </span>
-                                </a>
-                                <span class="video-views">4520 Views</span>
+                        <li class="comment">
+                            <div class="user-img">
+                                <img src="https://loremflickr.com/50/50/ " alt="user-img " />
+                            </div>
+                            <div class="user-comment">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores illo animi neque unde, minima vitae magni saepe veniam quo vel iusto numquam dolor suscipit, quos ut! Nisi corporis explicabo aut?
                             </div>
                         </li>
-                        <li class="suggestion">
-                            <a href="#">
-                                <div class="thumbnail">
-                                    <img
-                                        src="https://loremflickr.com/160/90 "
-                                        alt="channel-img "
-                                    />
-                                </div>
-                            </a>
-                            <div class="details">
-                                <a href="#">
-                                    <h4>
-                                        Cool!! Watch this dog!
-                                    </h4>
-                                </a>
-                                <a href="#">
-                                    <span class="channel-name">
-                                        Channel name
-                                    </span>
-                                </a>
-                                <span class="video-views">4520 Views</span>
+                        <li class="comment">
+                            <div class="user-img">
+                                <img src="https://loremflickr.com/50/50/ " alt="user-img " />
                             </div>
-                        </li>
-                        <li class="suggestion">
-                            <a href="#">
-                                <div class="thumbnail">
-                                    <img
-                                        src="https://loremflickr.com/160/90 "
-                                        alt="channel-img "
-                                    />
-                                </div>
-                            </a>
-                            <div class="details">
-                                <a href="#">
-                                    <h4>
-                                        Cool!! Watch this dog!
-                                    </h4>
-                                </a>
-                                <a href="#">
-                                    <span class="channel-name">
-                                        Channel name
-                                    </span>
-                                </a>
-                                <span class="video-views">4520 Views</span>
-                            </div>
-                        </li>
-                        <li class="suggestion">
-                            <a href="#">
-                                <div class="thumbnail">
-                                    <img
-                                        src="https://loremflickr.com/160/90 "
-                                        alt="channel-img "
-                                    />
-                                </div>
-                            </a>
-                            <div class="details">
-                                <a href="#">
-                                    <h4>
-                                        Cool!! Watch this dog!
-                                    </h4>
-                                </a>
-                                <a href="#">
-                                    <span class="channel-name">
-                                        Channel name
-                                    </span>
-                                </a>
-                                <span class="video-views">4520 Views</span>
-                            </div>
-                        </li>
-                        <li class="suggestion">
-                            <a href="#">
-                                <div class="thumbnail">
-                                    <img
-                                        src="https://loremflickr.com/160/90 "
-                                        alt="channel-img "
-                                    />
-                                </div>
-                            </a>
-                            <div class="details">
-                                <a href="#">
-                                    <h4>
-                                        Cool!! Watch this dog!
-                                    </h4>
-                                </a>
-                                <a href="#">
-                                    <span class="channel-name">
-                                        Channel name
-                                    </span>
-                                </a>
-                                <span class="video-views">4520 Views</span>
+                            <div class="user-comment">
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores illo animi neque unde, minima vitae magni saepe veniam quo vel iusto numquam dolor suscipit, quos ut! Nisi corporis explicabo aut?
                             </div>
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <footer class="footer">
-                <div class="logo">
-                    <a href="#">
-                        <img src="./images/logo.png" alt="" />
-                    </a>
-                </div>
-                <form class="options">
-                    <select class="language">
+            <div class="suggestions">
+                <ul>
+                    <li class="suggestion">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="https://loremflickr.com/160/90 " alt="channel-img " />
+                            </div>
+                        </a>
+                        <div class="details">
+                            <a href="#">
+                                <h4>
+                                    Cool!! Watch this dog!
+                                </h4>
+                            </a>
+                            <a href="#">
+                                <span class="channel-name">
+                                        Channel name
+                                    </span>
+                            </a>
+                            <span class="video-views">4520 Views</span>
+                        </div>
+                    </li>
+                    <li class="suggestion">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="https://loremflickr.com/160/90 " alt="channel-img " />
+                            </div>
+                        </a>
+                        <div class="details">
+                            <a href="#">
+                                <h4>
+                                    Cool!! Watch this dog!
+                                </h4>
+                            </a>
+                            <a href="#">
+                                <span class="channel-name">
+                                        Channel name
+                                    </span>
+                            </a>
+                            <span class="video-views">4520 Views</span>
+                        </div>
+                    </li>
+                    <li class="suggestion">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="https://loremflickr.com/160/90 " alt="channel-img " />
+                            </div>
+                        </a>
+                        <div class="details">
+                            <a href="#">
+                                <h4>
+                                    Cool!! Watch this dog!
+                                </h4>
+                            </a>
+                            <a href="#">
+                                <span class="channel-name">
+                                        Channel name
+                                    </span>
+                            </a>
+                            <span class="video-views">4520 Views</span>
+                        </div>
+                    </li>
+                    <li class="suggestion">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="https://loremflickr.com/160/90 " alt="channel-img " />
+                            </div>
+                        </a>
+                        <div class="details">
+                            <a href="#">
+                                <h4>
+                                    Cool!! Watch this dog!
+                                </h4>
+                            </a>
+                            <a href="#">
+                                <span class="channel-name">
+                                        Channel name
+                                    </span>
+                            </a>
+                            <span class="video-views">4520 Views</span>
+                        </div>
+                    </li>
+                    <li class="suggestion">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="https://loremflickr.com/160/90 " alt="channel-img " />
+                            </div>
+                        </a>
+                        <div class="details">
+                            <a href="#">
+                                <h4>
+                                    Cool!! Watch this dog!
+                                </h4>
+                            </a>
+                            <a href="#">
+                                <span class="channel-name">
+                                        Channel name
+                                    </span>
+                            </a>
+                            <span class="video-views">4520 Views</span>
+                        </div>
+                    </li>
+                    <li class="suggestion">
+                        <a href="#">
+                            <div class="thumbnail">
+                                <img src="https://loremflickr.com/160/90 " alt="channel-img " />
+                            </div>
+                        </a>
+                        <div class="details">
+                            <a href="#">
+                                <h4>
+                                    Cool!! Watch this dog!
+                                </h4>
+                            </a>
+                            <a href="#">
+                                <span class="channel-name">
+                                        Channel name
+                                    </span>
+                            </a>
+                            <span class="video-views">4520 Views</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="logo">
+                <a href="#">
+                    <img src="./images/logo.png" alt="" />
+                </a>
+            </div>
+            <form class="options">
+                <select class="language">
                         <option value="EN ">Language: English</option>
                         <option value="FR ">Language: Arabic</option>
                     </select>
-                    <select class="location">
+                <select class="location">
                         <option value="EG ">Location: Egypt</option>
                         <option value="ZW ">Location: Zimbabwe</option>
                     </select>
-                    <select class="mode">
+                <select class="mode">
                         <option value="true">Mode: ON</option>
                         <option value="false">Mode: OFF</option>
                     </select>
-                </form>
+            </form>
 
-                <div class="links">
-                    <a href="# " class="link">About</a>
-                    <a href="# " class="link">Press</a>
-                    <a href="# " class="link">Copyright</a>
-                    <a href="# " class="link">Developers</a>
-                    <a href="# " class="link">Advertise</a>
-                    <a href="# " class="link">Creators</a>
-                </div>
-            </footer>
-        </div>
-    </body>
+            <div class="links">
+                <a href="# " class="link">About</a>
+                <a href="# " class="link">Press</a>
+                <a href="# " class="link">Copyright</a>
+                <a href="# " class="link">Developers</a>
+                <a href="# " class="link">Advertise</a>
+                <a href="# " class="link">Creators</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
 </html>
