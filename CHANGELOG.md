@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 -   W3Validator Errors.
 
+### Changed
+
+-   Use `loremflickr.com` instead of `placecorgi.com`.
+
 ## [1.0.0] - 2020-04-29
 
 ### Added
