@@ -116,22 +116,60 @@ body {
 .video {
     display: grid;
     grid-row: 1;
+    grid-row-gap: 15px;
     grid-column: 1 / span 8;
 }
 
-.video .channel-summary {
+.channel-summary {
     display: grid;
+    grid-template-columns: 50px 250px;
+    grid-gap: 10px;
+}
+
+.channel-summary img {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.channel-summary button {
+    background-color: #c4302b;
+    border: none;
+    color: #fff;
+    padding: 7px 20px;
+}
+
+.channel-info {
+    display: grid;
+    grid-column: 2;
+    /* grid-template-rows: auto 100px; */
+}
+
+.channel-info h4 {
+    grid-row: 1;
+}
+
+.channel-info .subscribe {
+    grid-row: 2;
+    border: 1px solid #777;
+    width: 140px;
+}
+
+
+/* .channel-summary .video .channel-summary {
     grid-row: 2;
     grid-column: 1 / span 7;
-}
+} */
 
+
+/* 
 .video .channel-summary {
     display: grid;
     grid-row: 2;
     grid-column: 1 / span 8;
-}
+} */
 
-.info {
+
+/* .info {
     display: grid;
 }
 
@@ -144,7 +182,7 @@ h2 {
     display: grid;
     grid-row: 1 / span 2;
     grid-column: 1;
-}
+} */
 
 
 /*=================*/
@@ -153,6 +191,19 @@ h2 {
     display: grid;
     grid-column: 1 / span 12;
     margin-top: 20px;
+}
+
+.info {
+    background-color: #fff;
+    padding: 15px;
+}
+
+.info h2 {
+    margin-bottom: 10px;
+}
+
+.description {
+    margin-top: 10px;
 }
 
 .content {
