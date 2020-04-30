@@ -7,6 +7,22 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.1.0] - 2020-04-30
+
+### Fixed
+
+-   W3Validator Errors.
+
+### Changed
+
+-   Use `loremflickr.com` instead of `placecorgi.com`.
+
+### Added
+
+-   Video Options Icons (Like, Share)
+-   No. of video views.
+-   HTML semantic elements.
+
 ## [1.0.0] - 2020-04-29
 
 ### Added
